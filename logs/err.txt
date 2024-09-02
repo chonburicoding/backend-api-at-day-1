@@ -1,0 +1,9 @@
+SequelizeDatabaseError: Invalid column name 'nam'.2024-08-31 13:32:57	SequelizeDatabaseError: Invalid column name 'nam'.
+2024-08-31 13:32:58	SequelizeDatabaseError: Invalid column name 'nam'.
+2024-08-31 13:33:06	SequelizeDatabaseError: Invalid column name 'nam'.
+2024-08-31 13:33:07	SequelizeDatabaseError: Invalid column name 'nam'.
+2024-08-31 13:33:32	SequelizeDatabaseError: Invalid column name 'nam'.
+2024-08-31 13:33:45	SequelizeDatabaseError: Invalid column name 'nam'.
+2024-08-31 13:35:14	SequelizeDatabaseError: Invalid column name 'nam'.
+2024-08-31 13:35:35	SequelizeDatabaseError: Invalid column name 'nam'.
+2024-08-31 13:35:42	SequelizeDatabaseError: Invalid column name 'nam'.

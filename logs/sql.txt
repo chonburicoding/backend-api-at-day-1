@@ -1,0 +1,13 @@
+2024-08-31 13:35:35	DECLARE @ms_ver NVARCHAR(20); SET @ms_ver = REVERSE(CONVERT(NVARCHAR(20), SERVERPROPERTY('ProductVersion'))); SELECT REVERSE(SUBSTRING(@ms_ver, CHARINDEX('.', @ms_ver)+1, 20)) AS 'version'
+2024-08-31 13:35:35	BEGIN TRANSACTION;
+2024-08-31 13:35:35	INSERT INTO tb_employee (nam, salary, email, department_id, gender)
+            OUTPUT INSERTED.id, INSERTED.name, INSERTED.salary, 
+            INSERTED.email, INSERTED.department_id, INSERTED.gender
+            VALUES (N'somying', 60000, N'somying@hotmail.com', 1, N'M')
+2024-08-31 13:35:35	ROLLBACK TRANSACTION;
+2024-08-31 13:35:42	BEGIN TRANSACTION;
+2024-08-31 13:35:42	INSERT INTO tb_employee (nam, salary, email, department_id, gender)
+            OUTPUT INSERTED.id, INSERTED.name, INSERTED.salary, 
+            INSERTED.email, INSERTED.department_id, INSERTED.gender
+            VALUES (N'somying', 60000, N'somying@hotmail.com', 1, N'M')
+2024-08-31 13:35:42	ROLLBACK TRANSACTION;
